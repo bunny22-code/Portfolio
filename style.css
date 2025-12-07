@@ -26,9 +26,10 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 0 2rem;
-            max-width: 1200px;
+            padding: 0 1rem;
+            max-width: 100%;
             margin: 0 auto;
+            box-sizing: border-box;
         }
 
         .nav-brand {
@@ -137,9 +138,10 @@
 
         /* Section Styling */
         section {
-            padding: 5rem 2rem;
-            max-width: 1200px;
+            padding: 5rem 1rem;
+            max-width: 100%;
             margin: 0 auto;
+            box-sizing: border-box;
         }
 
         section h2 {
@@ -356,11 +358,15 @@
             margin: 2rem auto;
             display: grid;
             gap: 1.5rem;
+            padding: 0 1rem;
+            box-sizing: border-box;
         }
 
         .form-group {
             display: flex;
             flex-direction: column;
+            width: 100%;
+            box-sizing: border-box;
         }
 
         .form-group label {
