@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Local Server",
+			"type": "shell",
+			"command": "cd c:\\Users\\DELL\\OneDrive\\Bureau\\portfolio && python -m http.server 8000",
+			"isBackground": true
+		},
+		{
+			"label": "Start Local Server",
+			"type": "shell",
+			"command": "cd 'c:\\Users\\DELL\\OneDrive\\Bureau\\portfolio'; python -m http.server 8000",
+			"isBackground": true
+		}
+	]
+}
